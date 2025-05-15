@@ -4,7 +4,12 @@
   <meta charset="UTF-8" />
   <title>Punti Vendita Joda Sport</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="leaflet.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-o9N1j0tZgFfMjZlz3ofFHsNlbF5y8l+T9Dd8f0iPt0k="
+    crossorigin=""
+  />
   <style>
     #map {
       height: 100vh;
@@ -19,7 +24,11 @@
 
 <div id="map"></div>
 
-<script src="leaflet.js"></script>
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-o9N1j0tZgFfMjZlz3ofFHsNlbF5y8l+T9Dd8f0iPt0k="
+  crossorigin=""
+></script>
 <script>
   const map = L.map('map').setView([42.5, 13], 6);
 
